@@ -1,5 +1,8 @@
-NixOS config I made for myself
+# Nix Config
 
-uses KDE Plasma as the desktop environment, Home Manager for user packages, Agenix for Git and user passwords, and Disko for partition management
+Just a NixOS config I made for personal usage.
 
-DO NOT USE, THIS MIGHT BE BROKEN
+# Usage
+
+- To generate a bootable ISO: `nix build .#iso`
+- To install NixOS with this configuration: boot into the generated ISO and run `sudo install-nixos`. Follow what it says to continue.
